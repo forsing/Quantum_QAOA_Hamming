@@ -24,9 +24,9 @@ np.random.seed(39)
 
 
 # Putanja do podataka (CSV)
-putanja = '/Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv'
-# putanja = '/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv'
-# putanja = '/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv'
+putanja = '/data/loto7_4708_k85.csv'
+# putanja = '/data/loto7_4708_k85_loto_2976.csv'
+# putanja = '/data/loto7_4708_k85_loto_plus_1732.csv'
 
 
 # Učitavanje fajla
@@ -147,21 +147,21 @@ print()
 Mod: Brzi Qiskit 1.x Stabilizer QAOA Model
 Dimenzija QUBO matrice: (39, 39)x(39, 39)
 Analizirano redova iz CSV: 4708
-Predložena kombinacija (Ground State): [2, 5, 6, 28, 29, 30, 39]
+Predložena kombinacija (Ground State): [2, x, 6, y, 29, z, 39]
 
 
 
 Mod: Brzi Qiskit 1.x Stabilizer QAOA Model
 Dimenzija QUBO matrice: (39, 39)x(39, 39)
 Analizirano redova iz CSV: 2976
-Predložena kombinacija (Ground State): [7, 16, 18, 26, 28, 29, 31]
+Predložena kombinacija (Ground State): [7, x, 18, y, 28, z, 31]
 
 
 
 Mod: Brzi Qiskit 1.x Stabilizer QAOA Model
 Dimenzija QUBO matrice: (39, 39)x(39, 39)
 Analizirano redova iz CSV: 1732
-Predložena kombinacija (Ground State): [1, 2, 15, 17, 21, 27, 38]
+Predložena kombinacija (Ground State): [1, x, 15, y, 21, z, 38]
 """
 
 
