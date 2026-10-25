@@ -25,9 +25,9 @@ np.random.seed(39)
 
 
 # Putanja do podataka (CSV)
-putanja = '/Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv'
-# putanja = '/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv'
-# putanja = '/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv'
+putanja = '/data/loto7_4708_k85.csv'
+# putanja = '/data/loto7_4708_k85_loto_2976.csv'
+# putanja = '/data/loto7_4708_k85_loto_plus_1732.csv'
 
 
 df = pd.read_csv(putanja, header=None)
@@ -190,7 +190,7 @@ Mod: Pravilna Ofset Redukcija na 5 Kubita (Strict Constraint Filter)
 Analizirano redova iz CSV: 4708
 Kvantno izmeren optimalni prostorni ofset: 27
 Broj istorijskih poklapanja za ovaj ofset: 247
-Predložena kombinacija (Ground State): [7, 11, 15, 20, 25, 29, 34]
+Predložena kombinacija (Ground State): [7, x, 15, y, 25, z, 34]
 
 
 
@@ -198,7 +198,7 @@ Mod: Pravilna Ofset Redukcija na 5 Kubita (Strict Constraint Filter)
 Analizirano redova iz CSV: 2976
 Kvantno izmeren optimalni prostorni ofset: 31
 Broj istorijskih poklapanja za ovaj ofset: 1513
-Predložena kombinacija (Ground State): [3, 9, 14, 20, 26, 31, 37]
+Predložena kombinacija (Ground State): [3, x, 14, y, 26, z, 37]
 
 
 
@@ -206,5 +206,5 @@ Mod: Pravilna Ofset Redukcija na 5 Kubita (Strict Constraint Filter)
 Analizirano redova iz CSV: 1732
 Kvantno izmeren optimalni prostorni ofset: 13
 Broj istorijskih poklapanja za ovaj ofset: 5
-Predložena kombinacija (Ground State): [15, 18, 19, 21, 24, 27, 28]
+Predložena kombinacija (Ground State): [15, x, 19, y, 24, z, 28]
 """
